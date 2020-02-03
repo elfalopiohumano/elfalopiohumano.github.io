@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="file:///C:/Users/jorgeallepuzr.car/Documents/WEB/index.html" class="w3-bar-item w3-button w3-padding-large w3-black">Home</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">ESTACIONES</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-black">
+<div class="w3-container w3-white">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>SIERRA NEVADA</h1>
+      <h5 class="w3-padding-32 w3-text-black">Sierra Nevada es un macizo montañoso perteneciente al conjunto de las Cordilleras Béticas, concretamente al Sistema Penibético.
+	  Es el macizo montañoso de mayor altitud de toda Europa occidental, después de los Alpes. Su altitud máxima se alcanza en el pico Mulhacén, de 3482 metros.<br>
+		Tiene 131 pistas con 110,3 km esquiables junto a 21 remontes
+		Sierra Nevada es la estación a la que más veces he ido y desde mi punto de vista la mas divertida, lo único malo queq le veo es que al ser la única estación en el Sur está siempre a tope de gente.
+		</h5>
+
+      <h5 class="w3-text-black">Aparte de lo que es la estación, Sierra Nevada tiene una cantidad inmensa de actividades que hacer al cierre de las piestas como: bares, restaurantes, parques, cuestas de nieve, un bowl... </h5>
+   <img src="imagenes/sierranevada.jpg" width="326">
+   </div>
+  </div>
+</div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-black w3-padding-64 w3-container w3-black">
+<div class="w3-white w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>LA MASELLA</h1>
+      <h5 class="w3-padding-32 w3-text-black">Masella es una estación de esquí alpino situada en la vertiente norte de la Tosa d'Alp, al sur de la Baja Cerdaña.Se encuentra unida a la Molina junto con la cual forman el dominio esquiable Alp 2500. Las dos estaciones están enlazadas por un telecabina el cual sale de la Molina y llega al sector de "dues estacions", en la montaña de Tosa.<br><br>
+	  Tiene 65 pistas con 74 km esquiables junto a 5 remontes.
+	A La Masella solo he ido una vez con mi colegio pero he de dcir que fue el mejor viaje a la nieve que he realizado ya que esquíe con todos mis amigos y sin gente ya que era principio de temporada 	
+	  </h5>
+	  <img src="imagenes/masella.jpg" width="326">
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-red">  
+  
+ <p>Powered by w3.css<br><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h" target="_blank">Página original</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

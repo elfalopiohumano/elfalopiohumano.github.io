@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="file:///C:/Users/jorgeallepuzr.car/Documents/WEB/index.html" class="w3-bar-item w3-button w3-padding-large w3-black">Home</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">EQUIPAMIENTO</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-black">
+<div class="w3-container w3-white">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>ROPA</h1>
+      <h5 class="w3-padding-32 w3-text-black">La ropa es, sino la más, una de las cosas más importantes del snowboard.<br> Desde mi experiencia he de deciros que no hay que escatimar en gastos con la ropa,
+	   porque ya me ha pasado un par de veces el caerme e ir todo el dia con el culo mojado y resfriarme. </h5>
+
+      <h5 class="w3-text-black">Lo que tienes que llevar sí o sí a la nieve es (mis gastos):
+	  <ul>Calcetines de esquiar=10€</ul>
+	  <ul>Mallas térmicas=10€</ul>
+	  <ul>Pantalon de nieve=80€</ul>
+	  <ul>Camiseta térmica=10€</ul>
+	  <ul>Forro polar=25€</ul>
+	  <ul>Chaquetón de nieve=130€</ul>
+	  <ul>Braga de cuello=5€</ul>
+	  Lo más recomendable es gastar en marcas especializadas, sobre todo los chaquetones y pantalones que es lo que os va  aprotejer de mojaros
+	  </h5>
+	  <img src="imagenes/ropasnow.png" width="326">
+    </div>
+	
+  </div>
+</div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-black w3-padding-64 w3-container w3-black">
+<div class="w3-white w3-container">
+  <div class="w3-content">
+    
+
+    <div class="w3-twothird">
+      <h1>MATERIAL</h1>
+      <h5 class="w3-padding-32 w3-text-black">La otra parte es el material. En este campo no puedo dar una opión extensa ya que llevo solo 2 años practicando este deporte.<br>
+	  En este campo vamos a ver 4 partes:
+	  <ul>Tabla: la tabla es practicamente el deporte entero. Aquí vais a encontrar todo tipo de precios así que si vais a adquirir una os recomiendo hablar con un especialista en persona.</ul>
+	  <ul>Gafas: las gafas desde mi punto de vista son muy importes, nos protegen del posiblemente nuestro mayor problema en la monatña, el sol.Aquí recomiendo invertir porque nos jugamos que el sol reflecte en la nieve que es translucida y nos deje ciegos.</ul>
+	  <ul>Casco: el casco nos va a proteger de caídas y golpes en la nieve así que aquí hay que comprar un casco de nieve, no vale cualquiera de otro tipo  </ul>
+	  <ul>Guantes: para el snowboard yo recomiendo manoplas en vez de guantes, porque para el tema de agarre de tabla la manopla permite hacer este movimiento sin que temiblemente se te quede algún dedo mal puesto como en el caso de los guantes</ul>
+	  </h5>
+		<img src="imagenes/materialsnow.png" width="326">
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-red">  
+  
+ <p>Powered by w3.css<br><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h" target="_blank">Página original</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
